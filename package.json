@@ -1,0 +1,42 @@
+{
+  "name": "react-image-bounding-box",
+  "description": "A lightweight and easy-to-use solution for drawing bounding boxes",
+  "author": {
+    "name": "Rodrigo Melo",
+    "email": "rodrig.melo96@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigmelo/react-image-bounding-box"
+  },
+  "keywords": [
+    "image",
+    "bounding-box",
+    "draw",
+    "react"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.21.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.7.0",
+    "typescript": "^5.5.4"
+  }
+}

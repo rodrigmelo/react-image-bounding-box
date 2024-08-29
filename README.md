@@ -72,15 +72,7 @@ const myBoundingBoxProperties = [
 function App() {
   return <ImageBoundingBox
           imageSrc={"https://example.com/path/to/image.jpg"}
-          box={myBoundingBoxProperties.map((box) => {
-            return {
-              height: box.height,
-              left: box.left,
-              top: box.top,
-              width: box.width,
-              boundingBoxStyles: box.boundingBoxStyles,
-            }
-          })}
+          box={myBoundingBoxProperties}
           style={{
             height: '50%',
             width: '60%',

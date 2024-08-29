@@ -17,7 +17,7 @@ Esta biblioteca é uma solução leve e fácil de usar para desenhar bounding bo
 ## How to use / Como usar
 
 ```javascript
-import ImagemBoundingBox from 'react-image-bounding-box'
+import ImageBoundingBox from 'react-image-bounding-box'
 
 const myBoundingBoxProperty = [{
     width: 0.22352318465709686,
@@ -27,7 +27,7 @@ const myBoundingBoxProperty = [{
   }]
 
 function App() {
-  return <ImagemBoundingBox
+  return <ImageBoundingBox
           imageSrc={"https://example.com/path/to/image.jpg"}
           box={myBoundingBoxProperty}
           style={{
@@ -45,7 +45,7 @@ __Result / Resultado__
 #
 
 ```javascript
-import ImagemBoundingBox from 'react-image-bounding-box'
+import ImageBoundingBox from 'react-image-bounding-box'
 
 const myBoundingBoxProperties = [
   {
@@ -70,7 +70,7 @@ const myBoundingBoxProperties = [
 ]
 
 function App() {
-  return <ImagemBoundingBox
+  return <ImageBoundingBox
           imageSrc={"https://example.com/path/to/image.jpg"}
           box={myBoundingBoxProperties.map((box) => {
             return {

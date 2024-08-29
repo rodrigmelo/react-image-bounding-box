@@ -32,8 +32,8 @@ export default [
     external: ["react", "react-dom"],
   },
   {
-    input: "src/index.tsx",
-    output: [{ file: "dist/types.d.ts", format: "es" }],
+    input: "src/react-image-bounding-box.d.ts",
+    output: [{ file: "dist/react-image-bounding-box.d.ts", format: "es" }],
     plugins: [dts.default()],
   },
 ];

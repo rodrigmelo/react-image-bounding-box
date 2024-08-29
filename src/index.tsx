@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
-import { ImageRenderProps } from "./types";
+import { ImageRenderProps } from "./react-image-bounding-box";
 
 const defaultBoundingBoxStyles = {
   strokeStyle: "#FF0000",

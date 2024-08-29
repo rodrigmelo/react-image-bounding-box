@@ -18,3 +18,9 @@ export type ImageRenderProps = React.DetailedHTMLProps<
   imageSrc: string;
   box?: BoundingBoxProperties[];
 };
+
+export default function ImageBoundingBox({
+  imageSrc,
+  box,
+  ...props
+}: ImageRenderProps): JSX.Element;
